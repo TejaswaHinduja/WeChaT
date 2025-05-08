@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from "./components/navbar"
-import{Routes,Route,Navigate} from "react-router-dom"
+import {Routes,Route,Navigate} from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import SignUpPage from "./pages/SignUpPage"
 import LoginPage from "./pages/LoginPage"
@@ -28,9 +28,7 @@ function App() {
       </div>
     )
   }
-
   return (
-
     <div>
 
       <Navbar/>
