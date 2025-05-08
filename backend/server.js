@@ -10,7 +10,7 @@ const authRoutes = require('./routes/auth');
 const msgRoutes = require('./routes/messageRoutes');
 
 const port = process.env.PORT || 5001;
-const __dirname=path.resolve();
+
 
 connect(); // Connect to the database
 
